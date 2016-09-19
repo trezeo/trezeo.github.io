@@ -5,7 +5,7 @@ footer {
 .navbar-header .navbar-brand .logo {
     height: 40px;
     width: 200px;
-    background-image: url('../img/logo-white.png');
+    background-image: url('../img/logo.png');
     background-size: auto 40px;
     background-repeat: no-repeat;
     display: block;
@@ -15,8 +15,10 @@ footer {
     transition: all 0.35s;
 }
 
-.affix .navbar-header .navbar-brand .logo {
-    background-image: url('../img/logo.png');
+@media (min-width: 768px) {
+    .affix-top .navbar-header .navbar-brand .logo {
+        background-image: url('../img/logo-white.png');
+    }
 }
 
 .navbar-header .navbar-brand {
