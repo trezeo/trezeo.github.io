@@ -1,3 +1,25 @@
 footer {
   padding: 20px 0;
 }
+
+.navbar-header .navbar-brand .logo {
+    height: 40px;
+    width: 200px;
+    background-image: url('../img/logo-white.png');
+    background-size: auto 40px;
+    background-repeat: no-repeat;
+    display: block;
+
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.affix .navbar-header .navbar-brand .logo {
+    background-image: url('../img/logo.png');
+}
+
+.navbar-header .navbar-brand {
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
