@@ -16,7 +16,7 @@ footer {
 }
 
 @media (min-width: 768px) {
-    .affix-top .navbar-header .navbar-brand .logo {
+    .affix-top.logo-two-colors .navbar-header .navbar-brand .logo {
         background-image: url('../img/logo-white.png');
     }
 }
@@ -172,4 +172,14 @@ header .header-content .header-content-inner p {
 
 .team-member p {
     margin-top: 0
+}
+
+/* legal */
+
+#legal ol > li {
+    margin-top: 10px;
+}
+
+.bg-primary a {
+    color: white;
 }
