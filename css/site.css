@@ -151,6 +151,13 @@ header .header-content .header-content-inner p {
     margin: 0 20px 15px;
 }
 
+/* Sub-text */
+
+header .header-content .header-content-inner p.sub-text {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
 /* Team */
 
 
